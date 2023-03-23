@@ -1,0 +1,21 @@
+$color: #d03636;
+body {
+  background-color: $color;
+  // 文字禁止选中
+  user-select: none;
+}
+
+img {
+  // 禁止拖动
+  -webkit-user-drag: none;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #ccc;
+}
